@@ -1,0 +1,77 @@
+.main{
+  position: relative;
+}
+map{
+  position: absolute;
+  z-index: -1;
+}
+.shade{
+  background-color: white;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 300px;
+}
+.shade .search{
+  background-color: #DDDDDD;
+  border-radius: 20rpx;
+  display: flex;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-top:20rpx ;
+}
+.shade .search image{
+  flex: 1;
+  width: 10%;
+  padding: 10rpx;
+}
+.shade .search input{
+  flex:10;
+  padding: 10rpx;
+}
+.function{
+  display: flex;
+}
+.function .item{
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10rpx;
+  justify-content: center;
+  text-align: center;
+  /* background-color: red; */
+}
+.function .item image{
+  width: 50%;
+  padding: 16px;
+}
+.function .item text{
+  padding: -10rpx;
+  font-size: 32rpx;
+}
+.btn{
+  display: flex;
+  justify-content: space-between;
+}
+.btn  .btn1{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    border: 0 solid #ffffff;
+    border-radius: 500px;
+    box-shadow: 4px 1px 1px #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn  .btn2{
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border: 0 solid #ffffff;
+  border-radius: 500px;
+  box-shadow: 4px 1px 1px #cccccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

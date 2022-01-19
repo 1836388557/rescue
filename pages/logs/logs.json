@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "救援小知识",
+  "usingComponents": {
+    "tabs":"../../components/tabs/tabs"
+  }
+}

@@ -1,0 +1,28 @@
+
+.message .basic .item{
+  padding: 10rpx;
+  border:1px solid white;
+  background-color:	#DDDDDD;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.message .basic .item image{
+ width: 10%;
+ border-radius: 50%;
+}
+.message .team{
+  /* background-color: #DDDDDD; */
+  margin-top: 20px;
+}
+.message .team .item{
+  padding: 30rpx;
+  background-color: #DDDDDD;
+  border-radius: 10px;
+  border:1px solid white;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+

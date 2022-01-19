@@ -1,0 +1,57 @@
+
+<view class="user_info_wrap">
+  <view class="user_img_warp" wx:if="{{userInfo.avatarUrl}}">
+    <image class="img_big" src="{{userInfo.avatarUrl}}"></image>
+    <view class="user_info">
+      <image class="user_img" src="{{userInfo.avatarUrl}}"></image>
+      <view class="user_name">{{userInfo.nickName}}</view>
+    </view>
+  </view>
+  <view wx:else>
+    <navigator url="/pages/denglu/denglu">
+    <button type="primary" plain  >登录</button>
+  </navigator>
+  </view>
+</view>
+<view class="container">
+<view class="message_wrap">
+  <navigator url="../info/info">
+   <view id="item" class="message">
+   <image src="../../icon/个人信息.png" mode="widthFix"></image> 
+   <text>个人信息</text>
+   </view>
+  </navigator>
+  <navigator>
+  <view  id="item" class="message_center">
+   <image src="../../icon/消息中心(3).png" mode="widthFix"></image>
+   <text>消息中心</text>
+  </view>
+  </navigator>
+  <navigator>
+  <view  id="item" class="matter">
+   <image src="../../icon/工具箱.png" mode="widthFix"></image>
+   <text>物质领取</text>
+  </view>
+  </navigator>
+  <navigator url="../team/team">
+  <view  id="item" class="team">
+   <image src="../../icon/团队.png" mode="widthFix"></image>
+   <text>我的团队</text>
+  </view>
+  </navigator>
+</view>
+<view class="content">
+    <view class="content_item">
+     <text>客服</text>
+     <image src="../../icon/箭头.png" mode="widthFix"></image>
+    </view>
+    <view class="content_item">
+    <text>意见反馈</text>
+    <image src="../../icon/箭头.png" mode="widthFix"></image>
+    </view>
+    <view class="content_item">
+    <text>关于我们</text>
+    <image src="../../icon/箭头.png" mode="widthFix"></image>
+    </view>    
+ </view>
+</view>

@@ -1,0 +1,30 @@
+.container{
+  margin: 10rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .title{
+  width: 100%;
+  font-size: 36rpx;
+  /* background-color: red; */
+  /* border-bottom: 1rpx solid #AAAAAA; */
+  padding: 10rpx;
+}
+.container .title .content{
+  display: flex;
+  /* background-color: salmon; */
+  flex-direction:column;
+  justify-content: space-between;
+}
+.container .title  .item{
+
+  display: flex;
+  flex-direction: row;
+  padding: 1px;
+  /* justify-content: space-between */
+
+}
+.container .title .content .item image{
+  width: 50%;
+}
+

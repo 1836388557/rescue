@@ -1,0 +1,17 @@
+<view class="main">  
+  <view class="team_wrap">
+        <view class="team_item"
+         wx:for="{{users}}"
+          wx:key="key"> 
+        <image src="../../icon/index.jpg" mode="widthFix"></image>
+          <view class="text">
+           <text>{{item.name}}</text>
+           <text>{{item.play}}</text>
+          </view>
+        </view>
+        
+  </view>
+  <view class="delete">
+  <button bindtap="delete"> 退出队伍</button>
+  </view>
+</view>

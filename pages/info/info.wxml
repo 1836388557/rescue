@@ -1,0 +1,46 @@
+<view class="message"> 
+  <view class="basic">
+    <view class="item">
+     <text>头像</text>
+     <image src="../../icon/index.jpg" mode="widthFix"> </image>
+    </view>
+    <view class="item">
+     <text class="name"> 姓名</text>
+     <text>***</text>
+    </view>
+     <view class="item">
+    <text class="sex">性别</text>
+    <text>***</text>
+     </view>
+     <view class="item">
+    <text class="bir">出生年月</text>
+    <text>***</text>
+      </view>
+    <view class="item">
+    <text class="tel">手机号码</text>
+    <text>***</text>
+    </view>
+    <view class="item">
+    <text class="email">邮箱</text>
+    <text>***</text>
+    </view>
+     <view class="item">
+     <text class="address">家庭住址</text>
+     <text>***</text>
+     </view>
+     <view class="item">
+     <text class="prove">实名认证</text>
+     <text>***</text>
+     </view>
+  </view>
+  <view class="team">
+    <view class="item">
+    <text class="team_name">队伍名称</text>
+    <text>***</text>
+    </view>
+    <view class="item">
+    <text class="play">队伍角色</text>
+    <text>***</text>
+    </view>
+  </view>
+</view>

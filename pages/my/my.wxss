@@ -1,0 +1,162 @@
+page{
+ background-color: #edece8;
+}
+.user_info_wrap {
+ height: 45vh;
+ overflow: hidden;
+ /* background-color: red; */
+ 
+}
+.user_info_wrap  .user_img_warp{
+  position: relative;
+  
+}
+.user_info_wrap  .user_img_warp .img_big{
+  /* 高斯模糊 */
+  filter: blur(10rpx);
+  height: 50vh;
+  
+}
+.user_info_wrap  .user_img_warp .user_info{
+  position: absolute;
+  left:50%  ;
+  /* 水平居中 */
+  transform: translatex(-50%);
+  top: 30%;
+  text-align: center;
+}
+.user_info_wrap  .user_img_warp .user_info .user_img{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius:50% ;
+}
+.user_info_wrap  .user_img_warp .user_info .user_name{
+  color: white;
+  padding: 10rpx;
+}
+.user_content{
+  position: relative;
+}
+.user_content .user_main{
+  position: absolute;
+width: 90%;
+left: 50%;
+transform: translatex(-50%);
+top: -40rpx;
+
+}
+ .user_content .user_main .hisotry{
+display: flex;
+background-color: white;
+ }
+ .user_content .user_main .hisotry navigator{
+   flex: 1;
+ }
+ .user_content .user_main .hisotry navigator .num{
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .user_content .user_main .hisotry navigator .text{
+  font-size: 32rpx;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .order_detail{
+  margin-top: 10rpx;
+  background-color: white;
+ 
+ }
+ .order_detail .title{
+   padding: 10rpx;
+  border-bottom: 1px solid 	#DDDDDD;
+ }
+ .order_detail .order_content {
+   display: flex;
+   text-align: center;
+ }
+ .order_detail .order_content navigator{
+   flex: 1;
+   /* flex-direction:row; */
+ }
+ .order_detail .order_content navigator image{
+  width: 40%;
+ }
+ .order_detail .order_content navigator .text{
+ font-size: 32rpx;
+ }
+.address_wrap{
+  background-color: white;
+  margin-top: 10rpx;
+}
+.app_info_wrap{
+  background-color: white;
+  margin-top: 10rpx;
+}
+.app_info_wrap .app_item{
+ 
+ border-bottom: 1px solid #DDDDDD;
+ padding: 16rpx;
+ font-size: 36rpx;
+}
+.app_info_wrap .contact{
+  display: flex;
+  justify-content: space-between;
+}
+.recommend{
+  background-color: white;
+  margin-top: 10rpx;
+  font-size: 36rpx;
+  padding: 10rpx;
+}
+.container .message_wrap{
+  display: flex;
+}
+.container .message_wrap{
+  background-color: white;
+  margin-top:20rpx;
+}
+.container .message_wrap navigator{
+ flex: 1;
+ padding: 30rpx;
+}
+.container .message_wrap #item{
+  /* padding: 10rpx; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+}
+.container .message_wrap #item image{
+  width: 50%;
+  
+}
+.container .message_wrap #item text{
+   font-size: 30rpx;
+
+}
+
+.content .content_item {
+  margin-top:10rpx ;
+  background-color: white;
+  border-bottom:1rpx solid #AAAAAA;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.content .content_item text{
+  flex: 13;
+  font-size: 36rpx;
+}
+.content .content_item image{
+  flex: 1;
+  /* background-color: red; */
+  width: 10%;
+}
+
+
+ 
+  
