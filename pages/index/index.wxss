@@ -1,10 +1,13 @@
+/* 主体 */
 .main{
   position: relative;
 }
+/* 地图样式 */
 map{
   position: absolute;
   z-index: -1;
 }
+/* 内容部分样式 */
 .shade{
   background-color: white;
   width: 100%;
@@ -12,24 +15,27 @@ map{
   position: absolute;
   top: 300px;
 }
+/* 搜索样式 */
 .shade .search{
-  background-color: #DDDDDD;
-  border-radius: 20rpx;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  border-radius: 40rpx;
   display: flex;
-  margin-left: 20rpx;
-  margin-right: 20rpx;
-  margin-top:20rpx ;
+  align-items: center;
+  width:96%;
+  padding:6rpx 40rpx;
+  margin:20rpx auto 20rpx;
 }
 .shade .search image{
-  flex: 1;
-  width: 10%;
-  padding: 10rpx;
+  width:36rpx;
+  height:36rpx;
 }
 .shade .search input{
-  flex:10;
-  padding: 10rpx;
+  flex:1;
+  padding: 10rpx 20rpx;
+  font-size:32rpx;
 }
-.function{
+/* .function{
   display: flex;
 }
 .function .item{
@@ -39,7 +45,6 @@ map{
   margin-left: 10rpx;
   justify-content: center;
   text-align: center;
-  /* background-color: red; */
 }
 .function .item image{
   width: 50%;
@@ -48,30 +53,34 @@ map{
 .function .item text{
   padding: -10rpx;
   font-size: 32rpx;
-}
+} */
+
+/* 按钮部分 */
 .btn{
+  padding:20rpx 0;
+  width:100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
-.btn  .btn1{
-    width: 100px;
-    height: 100px;
-    margin-left: 20px;
-    border: 0 solid #ffffff;
-    border-radius: 500px;
-    box-shadow: 4px 1px 1px #cccccc;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.btn navigator{
+  border-radius:50%;
 }
-.btn  .btn2{
+.btnItem{
   width: 100px;
   height: 100px;
-  margin-right: 20px;
-  border: 0 solid #ffffff;
-  border-radius: 500px;
-  box-shadow: 4px 1px 1px #cccccc;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  border-radius:50%;
+  text-align: center;
+  line-height:100px;
+  color:white;
+  font-size:32rpx;
+  
 }
+.btn navigator:first-child .btnItem{
+  background-color:rgb(252, 74, 74);
+  box-shadow:0 0 20rpx 4rpx rgb(240, 156, 156);
+}
+.btn navigator:last-child .btnItem{
+  background-color:rgb(21, 190, 21);
+  box-shadow:0 0 20rpx 4rpx rgb(161, 235, 50);
+}
+

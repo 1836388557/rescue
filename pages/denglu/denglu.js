@@ -20,8 +20,6 @@ Page({
     })
     wx.navigateBack({
       delta: 1,
-    })({
-      url: 'url',
     })
    }
  })

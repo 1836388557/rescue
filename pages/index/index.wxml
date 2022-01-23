@@ -1,15 +1,26 @@
 <view class="main">
-   <map style="width:100%;height:500px" markers="{{markers}}" 
-   latitude="{{markers[0].latitude}}" longitude="{{markers[0].longitude}}"></map>
+  <!-- 地图 -->
+   <!-- <map style="width:100%;height:500px" markers="{{markers}}" 
+   latitude="{{markers[0].latitude}}" longitude="{{markers[0].longitude}}"></map> -->
+   <map longitude="{{markers[0].longitude}}" latitude="{{markers[0].latitude}}"  markers="{{markers}}" circles="{{circles}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 500px;"></map>
+  <!-- 内容部分  -->
    <view class="shade">
-     <view class="search">
-     <image src="../../icon/放大镜.png" mode="widthFix"></image>
-     <input type="text" placeholder="查找地点"/>
-     </view>
-     <view class="btn">
-     <navigator url="../../pages/help/help"><view class="btn1"><text> 一键求救</text></view></navigator>
-     <navigator><view class="btn2" bindtap="getposition">参与救援</view></navigator>
-     </view>
+      <!-- 搜索 -->
+      <view class="search">
+        <image src="../../icon/放大镜.png" mode="aspectFit"></image>
+        <input type="text" placeholder="查找地点"/>
+      </view>
+      <!-- 求救按钮  -->
+      <view class="btn">  
+        <navigator url="../../pages/help/help">
+          <view class="btnItem">
+          一键求救
+          </view>
+        </navigator>
+        <navigator url=".">
+          <view class="btnItem" bindtap="getposition">参与救援</view>
+        </navigator>
+      </view>
   </view> 
 </view>
 

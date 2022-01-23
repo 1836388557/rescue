@@ -21,13 +21,13 @@
    <text>个人信息</text>
    </view>
   </navigator>
-  <navigator>
+  <navigator url=".">
   <view  id="item" class="message_center">
    <image src="../../icon/消息中心(3).png" mode="widthFix"></image>
    <text>消息中心</text>
   </view>
   </navigator>
-  <navigator>
+  <navigator url=".">
   <view  id="item" class="matter">
    <image src="../../icon/工具箱.png" mode="widthFix"></image>
    <text>物质领取</text>
