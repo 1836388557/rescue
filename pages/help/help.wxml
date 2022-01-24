@@ -1,6 +1,29 @@
-<!--pages/help/help.wxml-->
-<view class="container">  
+<form bindsubmit="formBindsubmit" bindreset="formReset">
   <view class="item">
+    <label>被困人数：</label>
+    <input name='num' placeholder="请输入被困人数"/>
   </view>
-</view>
+  <view class="item">
+    <label>受伤情况：</label>
+    <input name="qk"/>
+  </view>
+  <view class="item">
+    <label>被困时长：</label>
+    <input name='time' placeholder="请输入被困时长"/>
+  </view>
+  <view class="item">
+    <label>周围较明显标志：</label>
+    <input name='biaozhi'/>
+  </view>
+  <view class="item">
+    <label>补充：</label>
+    <input name='buchong'/>
+  </view>
+   <view class="btn">
+    <button type="primary" style="width:30%" formType="submit">提交</button>
+    <button type="warn" style="width:30%"formType='reset' >重置</button>
+   </view>
+</form>
+
+
 

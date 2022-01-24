@@ -5,13 +5,46 @@ Page({
    * 页面的初始数据
    */
   data: {
+    tip:"",
+     num:'',
+     qk:'',
+     tiem:'',
+     biaozhi:'',
+     buchong:''
   },
+  formBindsubmit:function(e){
+     if(e.detail.value.num.length==0||e.detail.value.time.length==0){
+       this.setData({
+         tip:'未输入',
+       })
+     }else{
+       this.setData({
+         tip:'',
+         num:e.detail.value.num,
+         qk:e.detail.value.qk,
+         time:e.detail.value.time,
+         biaozhi:e.detail.value.biaozhi,
+         buchong:e.detail.value.buchong
 
+       })
+     }
+     console.log(e);
+     console.log(this.data.num);
+  },
+  formReset:function(){
+    this.setData({
+      num:'',
+      qk:'',
+      tiem:'',
+      biaozhi:'',
+      buchong:''
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+     
   },
 
   /**
