@@ -35,25 +35,6 @@ map{
   padding: 10rpx 20rpx;
   font-size:32rpx;
 }
-/* .function{
-  display: flex;
-}
-.function .item{
-  flex: 2;
-  display: flex;
-  flex-direction: column;
-  margin-left: 10rpx;
-  justify-content: center;
-  text-align: center;
-}
-.function .item image{
-  width: 50%;
-  padding: 16px;
-}
-.function .item text{
-  padding: -10rpx;
-  font-size: 32rpx;
-} */
 
 /* 按钮部分 */
 .btn{

@@ -1,17 +1,16 @@
 
-<view class="user_info_wrap">
-  <view class="user_img_warp" wx:if="{{userInfo.avatarUrl}}">
+<view class="user_info_wrap" wx:if="{{userInfo.avatarUrl}}">
+  <view class="user_img_warp">
     <image class="img_big" src="{{userInfo.avatarUrl}}"></image>
     <view class="user_info">
       <image class="user_img" src="{{userInfo.avatarUrl}}"></image>
       <view class="user_name">{{userInfo.nickName}}</view>
     </view>
   </view>
-  <view wx:else>
-    <navigator url="/pages/denglu/denglu">
-    <button type="primary" plain  >登录</button>
-  </navigator>
-  </view>
+</view>
+<view class="user_info_wrap" wx:else>
+  <!-- 设置一下没登录的样式 -->
+  <view>没登录</view>
 </view>
 <view class="container">
 <view class="message_wrap">
